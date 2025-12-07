@@ -3,7 +3,7 @@ import os
 
 FILE_NAME = "UDCNTT.json"
 
-# Đọc dữ liệu từ file nếu có
+
 def load_data():
     if os.path.exists(FILE_NAME):
         with open(FILE_NAME, "r", encoding="utf-8") as file:
@@ -128,4 +128,5 @@ while True:
         break
     else:
         print("Lựa chọn không hợp lệ, vui lòng nhập lại.")
+
 
