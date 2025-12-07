@@ -10,7 +10,7 @@ def load_data():
             return json.load(file)
     return {}
 
-# Ghi dữ liệu vào file
+
 def save_data():
     with open(FILE_NAME, "w", encoding="utf-8") as file:
         json.dump(students, file, ensure_ascii=False, indent=4)
@@ -128,3 +128,4 @@ while True:
         break
     else:
         print("Lựa chọn không hợp lệ, vui lòng nhập lại.")
+
